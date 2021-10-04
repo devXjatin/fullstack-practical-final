@@ -16,6 +16,7 @@ h1 {
   td {
     text-align: center;
     font-size: 1.2rem;
+    font-weight: 500;
   }
   
   .wrong {
@@ -57,9 +58,9 @@ h1 {
   }
   
   .col-3{
-      background-image: linear-gradient(to right, rgba(36, 36, 131, 0.801), rgba(90, 90, 131, 0.548));
+      background-image: linear-gradient(to right, rgba(39, 146, 146, 0.911), rgba(83, 181, 226, 0.548));
   }
   
   .col-4{
-      background-image: linear-gradient(to right, rgb(10, 57, 83), rgb(11, 93, 201));
+      background-image: linear-gradient(to right, rgb(37, 149, 153), rgb(72, 189, 209));
   }

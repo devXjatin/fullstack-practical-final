@@ -6,89 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-    <title>Practical-1</title>
+    <title>Document</title>
   </head>
   <body>
-      <h1>Select Your Plan</h1>
-    <table>
-        <tr>
-            <th class="thead col-1"><span><i class="fas fa-calculator"></i></span> Basic</th>
-            <th class="thead col-2"><span><i class="fas fa-calculator"></i></span> Plus</th>
-            <th class="thead col-3"><span><i class="fas fa-calculator"></i></span> Deluxe</th>
-            <th class="thead col-4"><span><i class="fas fa-calculator"></i></span> Pro</th>
-        </tr>
-        <tr>
-            <td class="correct">Rs. 500/-</td>
-            <td class="correct">Rs. 1500/-</td>
-            <td class="correct">Rs. 2500/-</td>
-            <td class="correct">Rs. 3500/-</td>
-        </tr>
-        <tr>
-            <td class="col-1">50 Pages</td>
-            <td class="col-2">75 Pages</td>
-            <td class="col-3">Unlimited</td>
-            <td class="col-4">Unlimited</td>
-        </tr>
-        <tr>
-            <td>3 Users</td>
-            <td>5 Users</td>
-            <td>10 Users</td>
-            <td>Unlimited</td>
-        </tr>
-        <tr>
-            <td class="col-1">10 Sites</td>
-            <td class="col-2">25 Sites</td>
-            <td class="col-3">100 Sites</td>
-            <td class="col-4">Unlimited</td>
-        </tr>
-        <tr>
-            <td>50 MB</td>
-            <td>250 MB</td>
-            <td>1 GB</td>
-            <td>5 GB</td>
-        </tr>
-        <tr>
-            <td class="col-1">included</td>
-            <td class="col-2">included</td>
-            <td class="col-3">included</td>
-            <td class="col-4">included</td>
-        </tr>
-        <tr>
-            <td><span class="correct"><i class="fas fa-check"></i></span></td>
-            <td><span class="correct"><i class="fas fa-check"></i></span></td>
-            <td><span class="correct"><i class="fas fa-check"></i></span></td>
-            <td><span class="correct"><i class="fas fa-check"></i></span></td>
-        </tr>
-        <tr>
-            <td class="col-1"><span class="wrong"><i class="fas fa-times"></i></span></td>
-            <td class="col-2"><span class="correct"><i class="fas fa-check"></i></span></td>
-            <td class="col-3"><span class="correct"><i class="fas fa-check"></i></span></td>
-            <td class="col-4"><span class="correct"><i class="fas fa-check"></i></span></td>
-        </tr>
-        <tr>
-            <td><span class="wrong"><i class="fas fa-times"></i></span></td>
-            <td><span class="correct"><i class="fas fa-check"></i></span></td>
-            <td><span class="correct"><i class="fas fa-check"></i></span></td>
-            <td><span class="correct"><i class="fas fa-check"></i></span></td>
-        </tr>
-        <tr>
-            <td class="col-1"><span class="wrong"><i class="fas fa-times"></i></span></td>
-            <td class="col-2"><span class="wrong"><i class="fas fa-times"></i></span></td>
-            <td class="col-3"><span class="correct"><i class="fas fa-check"></i></span></td>
-            <td class="col-4"><span class="correct"><i class="fas fa-check"></i></span></td>
-        </tr>
-        <tr>
-            <td><span class="wrong"><i class="fas fa-times"></i></span></td>
-            <td><span class="wrong"><i class="fas fa-times"></i></span></td>
-            <td><span class="wrong"><i class="fas fa-times"></i></span></td>
-            <td><span class="correct"><i class="fas fa-check"></i></span></td>
-        </tr>
-        <tr>
-            <td class="col-1"><button type="submit">Sign Up</button></td>
-            <td class="col-2"><button type="submit">Sign Up</button></td>
-            <td class="col-3"><button type="submit">Sign Up</button></td>
-            <td class="col-4"><button type="submit">Sign Up</button></td>
-        </tr>
-    </table>
+      <nav>
+          <div class="logo">
+              melan
+          </div>
+          <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Services</a></li>
+              <li><select name="blog" id="blog" >
+                  <option selected>Blog</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+              </select> </li>
+              <li><select name="pages" id="pages">
+                  <option selected>Pages</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+              </select> </li>
+              <li><a href="#">Contact</a></li>
+          </ul>
+          <div id="button">
+              <button>Contact Me</button>
+          </div>
+      </nav>
+      <main>
+          <div id="center-text">
+              <p>Hello This Is Milan</p>
+              <p id="designation">-Creative Designer</p>
+
+          </div>
+
+          <div class="side-bar">
+              <span><i class="fab fa-facebook"></i></span>
+              <span><i class="fab fa-twitter"></i></span>
+              <span><i class="fab fa-instagram"></i></span>
+          </div>
+      </main>
   </body>
 </html>

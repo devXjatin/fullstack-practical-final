@@ -1,66 +1,106 @@
-h1 {
-    text-align: center;
-  }
-  th,
-  td {
-    /* border: 2px solid black; */
-    padding: 16px;
-    background-color: rgba(128, 128, 128, 0.24);
-  }
-  table {
+body{
+    background-image: url('./assests/bg-img.jpg');
+    background-repeat: no-repeat;
+}
+
+nav{
+    height: 80px;
+    display: flex;
+    align-items: center;
     margin: auto;
-  }
-  th {
-    font-size: 1.7rem;
-  }
-  td {
-    text-align: center;
-    font-size: 1.2rem;
+    width: 80%;
+    margin-top: 12px;
+}
+
+.logo{
+    font-size: 68px;
+    margin-left: 34px;
     font-weight: 500;
-  }
-  
-  .wrong {
-    color: red;
-    font-size: 1.2rem;
-    font-weight: 900;
-  }
-  
-  .correct {
-    color: green;
-    font-size: 1.2rem;
-    font-weight: 900;
-  }
-  
-  button {
-    padding: 14px 24px;
-    border-radius: 16px;
-    background-color: rgba(0, 0, 255, 0.712);
-    color: white;
-    font-size: 1.2rem;
-    outline: none;
-  }
-  
-  button:hover {
-    background-color: brown;
+    letter-spacing: 2px;
+    color:  white;
+}
+
+nav ul{
+    align-items: center;
+    display: flex;
+    list-style: none;
+    margin: auto;
+
+}
+nav ul li{
+    margin: 0 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 32px;
+    letter-spacing: 1px;
+    padding: 8px 16px;
+    border-radius: 5px;
+    transition: .5s ease;
     cursor: pointer;
-  }
-  
-  .thead span {
-    color: rgba(0, 0, 255, 0.712);
-  }
-  
-  .col-1 {
-      background-image: linear-gradient(to right, rgb(17, 201, 17), rgb(95, 209, 95));
-  }
-  
-  .col-2{
-      background-image: linear-gradient(to right, rgb(28, 109, 28), rgba(17, 136, 43, 0.699));
-  }
-  
-  .col-3{
-      background-image: linear-gradient(to right, rgba(39, 146, 146, 0.911), rgba(83, 181, 226, 0.548));
-  }
-  
-  .col-4{
-      background-image: linear-gradient(to right, rgb(37, 149, 153), rgb(72, 189, 209));
-  }
+    color: white;
+}
+
+
+button{
+    padding: 24px 16px;
+    font-size: 24px;
+    background-color: rgba(216, 112, 147, 0.76);
+    border: none;
+    border-radius: 4px;
+    margin-right: 48px;
+    color: white;
+    cursor: pointer;
+}
+
+#blog, #pages{
+    font-size: 32px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background: none;
+    color: white;
+    text-decoration: none;
+}
+#blog option, #pages option{
+    color: black;
+}
+
+#center-text{
+    position: absolute;
+    top: 300px;
+    left: 750px;
+    justify-content: center;
+
+}
+
+p{
+    font-size: 78px;
+    color: white;
+}
+
+#designation{
+    font-size: 48px;
+    margin-left: 88px;
+}
+
+.side-bar{
+    display: flex;
+    flex-direction: column;
+    margin-top: 250px;
+    float: right;
+    margin-right: 130px;
+}
+
+.side-bar span{
+    font-size: 38px;
+    padding: 26px;
+    color: white;
+}
+
+.side-bar span i {
+    cursor: pointer;
+
+}
+
